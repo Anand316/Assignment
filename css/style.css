@@ -27,7 +27,8 @@ nav li a{
     text-align:center;
     font-family:cursive, Helvetica;
     font-size:60px;
-    text-shadow:5px 10px 10px red;
+    text-shadow:5px 10px 10px rgb(186, 218, 202);
+    color:gold;
 }
 
 
@@ -63,7 +64,7 @@ nav a:hover{
 }
 
 .hero-image{
-    background-image: url("a.jpg");
+    background-image: url("h.jpg");
     height:60%;
     width:100%;
     background-position: center;
@@ -74,9 +75,10 @@ nav a:hover{
 
 .hero-text p{
     width:60%;
+    height:200pxpx;
     font-size:15px;
     font-family:cursive;
-    color:rgb(0, 128, 117);
+    color:rgb(234, 241, 241);
     position:relative;
-    top:30px;
+
 }
