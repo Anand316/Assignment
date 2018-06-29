@@ -122,7 +122,6 @@ marquee
     color:rgb(238, 241, 191);
     position:relative;
     bottom:0;
-    text-size-adjust:40px;
 }
 
 nav input{
