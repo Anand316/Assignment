@@ -1,42 +1,200 @@
-.nav{
-    background-color:#333;
-    overflow:hidden;
-}
-
-.nav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.nav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.nav a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.hero-image{
-    background-image:url("2.jpg");
-    width:60%;
-    height:60%;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    position:relative;
-    top:10px;
-    margin-top:10px;
+body{
+    width:100%;
     margin:auto;
 }
 
-.hero-text{
-    text-align:center;
-    color:lightcoral;
+/*header section start*/
+.header{
+    
+    width:100%;
+    height:150px;
+    background:lightgray;
+    margin-top:-10px;
+
 }
 
+.header img{
+    float:left;
+    width:150px;
+    height:150px;
+    margin-top:0; 
+    overflow:hidden;
+}
+
+.header h1{
+    width:900px;
+    font-size:60px;
+    color:black;
+    position:relative;
+    margin-left:150px;
+    margin-right:10px;
+    top:20px;
+    left:10px;
+    font-family:'Times New Roman', Times, serif
+}
+.header text{
+    width:180px;
+    height:100px;
+    float:right;
+    position:relative;
+    top:-90px;
+    left:20px;
+}
+
+nav
+{
+    background:rgba(104, 119, 153, 0.493);
+    width:1113.33px;
+    height:30px;
+    position:relative;
+    left:150px;
+    top:10px;
+}
+
+.header ul {
+margin-left:0;
+    height:30px;
+    width:900px;
+}
+
+
+.header ul li{
+    display:inline;
+    position:relative;
+    top:5px;
+    padding-right:15px;
+}
+
+
+
+.header li a{
+    text-decoration:none;
+    font-size:15px;
+    font-family:sans-serif;
+    position:relative;
+    left:-160px;
+
+}
+nav a:hover{
+    background:white;
+    color:red;
+    height: 50px;
+}
+
+nav input{
+    float:right;
+    position: relative;
+    top:-45px;
+    right:10px;
+    }
+
+/* header section completed*/    
+
+/*hero section start*/
+
+.hero-image{
+    background-image: url("z.jpg");
+    height:350px;
+    width:100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:10px;;
+}
+
+.hero-text blockquote{
+    color:white;
+    width:100%;
+    height:130px;
+    margin-left:0;
+    background:none;
+    font-size:23px;
+    margin-left:10px;
+    position:relative;
+    top:280px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+
+marquee
+{
+    position:relative;
+    bottom:0;
+    color:white;
+}
+
+/*hero section completed*/
+
+.section
+{
+    width:100%;
+    height:850px;
+    margin-top:0px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+    background:lightcyan;
+
+}
+
+.image{
+    width:300px;
+    margin-left:10px;
+    position:relative;
+    top:15px;
+}
+
+img{
+    width:300px;
+    float:left;
+    margin-top:5px;
+}
+
+.text{
+
+    width:800px;
+    margin-left:330px;
+    height:280px;
+    position:relative;
+    top:15px;
+
+}
+
+.text a{
+    float:right;
+}
+
+/* Footer section start*/
+
+
+footer{
+    display:block;
+    text-align:center;
+    background:lightslategray;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+}
+.fa-youtube {
+    background: red;
+    color: white;
+
+}
+/*footer section end */
