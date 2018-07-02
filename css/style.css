@@ -29,10 +29,10 @@ body{
     margin-left:150px;
     margin-right:10px;
     top:20px;
-    left:0px;
+    left:10px;
     font-family:'Times New Roman', Times, serif
 }
-.header text{
+address{
     width:180px;
     height:100px;
     float:right;
@@ -81,11 +81,6 @@ nav a:hover{
     height: 30px;
 }
 
-nav input{
-    float:right;
-    position: relative;
-    top:-45px;
-    }
 
 /* header section completed*/    
 
@@ -154,7 +149,7 @@ marquee a:hover{
 
 
 
-img {
+.wrap img {
     width:300px;
     height:200px;
     float:center;
@@ -192,7 +187,7 @@ h3{
 .section_2{
     width:100%;
     background:darkgray;
-    height:160px;
+    height:200px;
 }
 
 .contact{
@@ -205,12 +200,14 @@ font-family: sans-serif;
 margin:auto;
 position:relative;
 left:30px;
+font-family:'Times New Roman', Times, serif;
 
 }
 
 .contact .grid_4{
+    margin-top:10px;
     width:300px;
-    height:200px;
+    height:160px;
     padding-right:0;
 }
 
@@ -221,6 +218,14 @@ left:30px;
 
 .contact li{
     margin-left:0;
+}
+
+.contact address{
+    float:none;
+    position:relative;
+    top:0;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
 }
 
 
@@ -263,3 +268,153 @@ footer{
 
 }
 /*footer section end */
+
+
+/* Stylesheet for page 2*/
+
+/*header section start*/
+.header-2{
+    
+    width:100%;
+    height:150px;
+    background:lightgray;
+    margin-top:-10px;
+    text-align:center;
+
+}
+
+.header-2 img{
+    float:left;
+    width:150px;
+    height:150px;
+    margin-top:0; 
+    overflow:hidden;
+}
+
+.header-2 h1{
+    width:900px;
+    font-size:60px;
+    color:black;
+    position:relative;
+    margin-left:150px;
+    margin-right:10px;
+    top:20px;
+    left:10px;
+    font-family:'Times New Roman', Times, serif
+}
+.header-2 text{
+    width:180px;
+    height:100px;
+    float:right;
+    position:relative;
+    top:-90px;
+    left:20px;
+}
+
+.navbar
+{
+    background:rgba(104, 119, 153, 0.493);
+    width:1113.33px;
+    height:30px;
+    position:relative;
+    left:150px;
+    top:10px;
+}
+
+.header-2 ul {
+    height:30px;
+    width:900px;
+}
+
+
+.header-2 ul li{
+    display:inline;
+    position:relative;
+    top:5px;
+}
+
+
+
+.header-2 li a{
+    text-decoration:none;
+    font-size:15px;
+    font-family:sans-serif;
+    position:relative;
+    left:-360px;
+
+}
+navbar a:hover{
+    background:white;
+    color:red;
+    height: 50px;
+}
+
+
+
+/* header section completed*/    
+
+/*hero section start*/
+
+.hero-image-2{
+    background-image: url("z.jpg");
+    height:350px;
+    width:100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:10px;;
+}
+
+.hero-text-2 blockquote{
+    color:white;
+    width:100%;
+    height:130px;
+    margin-left:0;
+    background:none;
+    font-size:23px;
+    margin-left:10px;
+    position:relative;
+    top:280px;
+    font-family: 'Galada', cursive;
+}
+
+/*hero section completed*/
+
+/* Middle section start*/
+
+.section-2
+{
+    width:100%;
+    height:850px;
+    margin-top:0px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+    background:lightgray;
+
+}
+
+.image{
+    width:300px;
+    margin-left:10px;
+    position:relative;
+    top:15px;
+}
+
+img{
+    width:300px;
+    float:left;
+    margin-top:5px;
+}
+
+.text{
+
+    width:800px;
+    margin-left:330px;
+    height:280px;
+    position:relative;
+
+}
+
+.text a{
+    float:right;
+}
